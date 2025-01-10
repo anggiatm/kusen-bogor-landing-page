@@ -1,15 +1,8 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import ProductHighlight from "@/components/Products/ProductHighlight";
-// import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-// import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,6 +12,8 @@ export const metadata: Metadata = {
   keywords: [
     "kusen aluminium Bogor",
     "pembuatan kusen aluminium",
+    "cimande rolling door",
+    "toko kaca dan alumunium cimande rolling door",
     "kusen murah Bogor",
     "produk aluminium custom",
   ],
@@ -32,18 +27,7 @@ export default function Home() {
       <Hero />
       <Features />
       <ProductHighlight />
-      
-      {/* <Pricing /> */}
-      <Contact />
-      <Brands />
-      {/* <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-     
-      <Blog />
-      <Contact /> */}
+      <Contact/>
     </>
   );
 }

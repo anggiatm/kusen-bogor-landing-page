@@ -6,20 +6,20 @@ const data = [
   {
     title: "Kusen Aluminium",
     desc: "Cocok untuk pintu dan jendela, tahan lama, dan estetis.",
-    image1: "/images/products/kusen.png",
-    image2: "/images/products/kusen.png",
+    image1: "/images/products/kusen.webp",
+    image2: "/images/products/kusen.webp",
   },
   {
     title: "Canopy",
     desc: "Lindungi area luar rumah Anda dengan canopy yang kuat dan elegan.",
-    image1: "/images/products/kusen.png",
-    image2: "/images/products/kusen.png",
+    image1: "/images/products/canopy.webp",
+    image2: "/images/products/canopy.webp",
   },
   {
     title: "Kitchen Set Aluminium",
     desc: "Modern dan mudah dibersihkan, sempurna untuk dapur minimalis.",
-    image1: "/images/products/kusen.png",
-    image2: "/images/products/kusen.png",
+    image1: "/images/products/kitchenset.webp",
+    image2: "/images/products/kitchenset.webp",
   },
   // Tambahkan produk lainnya di sini
 ];

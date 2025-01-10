@@ -5,9 +5,15 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "Kusen Aluminium Bogor | kusenbogor.com",
+  description:
+    "Kusenbogor.com menyediakan kusen aluminium berkualitas dengan harga bersaing, pengerjaan rapi, dan bebas kustomisasi ukuran untuk area Bogor dan Jabodetabek.",
+  keywords: [
+    "kusen aluminium Bogor",
+    "pembuatan kusen aluminium",
+    "kusen murah Bogor",
+    "produk aluminium custom",
+  ],
 };
 
 const AboutPage = () => {

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ScrollButton from "../ScrollButton/ScrollButton";
+
 
 const Hero = () => {
   return (
@@ -19,19 +21,10 @@ const Hero = () => {
                   pengerjaan rapi, dan bebas kustomisasi ukuran. Pesan sekarang dan
                   wujudkan desain rumah Anda!
                 </p>
+                
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="product"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Lihat Produk
-                  </Link>
-                  <Link
-                    href="contact"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Hubungi Kami
-                  </Link>
+                  <ScrollButton targetId="products" label="Lihat Produk" className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"/>
+                  <ScrollButton targetId="contact" label="Hubungi Kami" className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"/>
                 </div>
               </div>
             </div>

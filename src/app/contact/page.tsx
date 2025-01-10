@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "halaman kontak kusenbogor.com",
   keywords: [
-    "kontak kusen aluminium Bogor",
+    "kontak kusen aluminium Bogor 082213394565",
     "kontak pembuatan kusen aluminium",
     "customer service kusen murah Bogor",
     "kontak penawaran produk aluminium custom",

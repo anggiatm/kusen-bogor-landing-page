@@ -5,8 +5,8 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Halaman produk kusen bogor",
+  description: "Mengerjakan kusen pintu, jendela. pagar besi stainless, canopy, kanopi, gerobak, etalase",
   // other metadata
 };
 
@@ -20,8 +20,6 @@ const ContactPage = () => {
 
       <AboutSectionOne />
       <AboutSectionTwo />
-
-      {/* <Contact /> */}
     </>
   );
 };
