@@ -28,6 +28,12 @@ export default function RootLayout({
         />
         <meta name="author" content="kusenbogor.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Kusen Aluminium Bogor | kusenbogor.com" />
+        <meta property="og:description" content="kusenbogor.com menyediakan kusen aluminium berkualitas dengan harga bersaing." />
+        <meta property="og:url" content="https://kusenbogor.com" />
+        <meta property="og:type" content="website" />
+
         <link rel="icon" href="/favicon.ico" />
         {/* Schema Markup */}
         <script
